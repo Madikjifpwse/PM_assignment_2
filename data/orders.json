@@ -1,0 +1,24 @@
+{
+  "8f62cadb-7d7b-46d1-9243-a7b993d9802f": {
+    "id": "8f62cadb-7d7b-46d1-9243-a7b993d9802f",
+    "description": "Pizza",
+    "status": "CREATED",
+    "stateTimestamps": {
+      "CREATED": "2026-04-08T15:37:40.2031032"
+    },
+    "createdAt": "2026-04-08T15:37:40.2031032",
+    "updatedAt": "2026-04-08T15:37:40.2031032"
+  },
+  "f6a61283-4c90-474a-afe8-6df0d4368000": {
+    "id": "f6a61283-4c90-474a-afe8-6df0d4368000",
+    "description": "Burger and Fries",
+    "status": "DELIVERED",
+    "stateTimestamps": {
+      "DELIVERED": "2026-04-08T15:28:33.6272021",
+      "CONFIRMED": "2026-04-08T15:27:33.9705852",
+      "CREATED": "2026-04-08T15:20:46.6866365"
+    },
+    "createdAt": "2026-04-08T15:20:46.6866365",
+    "updatedAt": "2026-04-08T15:28:33.6272021"
+  }
+}

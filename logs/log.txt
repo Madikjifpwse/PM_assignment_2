@@ -1,0 +1,71 @@
+[2026-04-08 15:20:31.885] [INFO] Data file is empty. Starting with empty repository
+[2026-04-08 15:20:31.901] [INFO] FileOrderRepository initialized with 0 orders
+[2026-04-08 15:20:31.917] [INFO] Loaded 0 orders into cache
+[2026-04-08 15:20:31.918] [INFO] OrderService initialized
+[2026-04-08 15:20:46.801] [INFO] Saved 1 orders to file
+[2026-04-08 15:20:46.802] [INFO] Saved order: f6a61283-4c90-474a-afe8-6df0d4368000 with status: CREATED
+[2026-04-08 15:20:46.802] [INFO] Cached order: f6a61283-4c90-474a-afe8-6df0d4368000
+[2026-04-08 15:20:46.803] [INFO] Created new order: f6a61283-4c90-474a-afe8-6df0d4368000 - Burger and Fries
+[2026-04-08 15:21:06.350] [INFO] Cache HIT for order: f6a61283-4c90-474a-afe8-6df0d4368000
+[2026-04-08 15:21:28.294] [INFO] Cache HIT for order: f6a61283-4c90-474a-afe8-6df0d4368000
+[2026-04-08 15:21:54.385] [INFO] Cache HIT for order: f6a61283-4c90-474a-afe8-6df0d4368000
+[2026-04-08 15:21:54.388] [ERROR] Failed to update order status: Invalid transition from CREATED to DELIVERED for order f6a61283-4c90-474a-afe8-6df0d4368000
+[2026-04-08 15:22:22.684] [INFO] Cache HIT for order: f6a61283-4c90-474a-afe8-6df0d4368000
+[2026-04-08 15:22:22.685] [ERROR] Failed to update order status: Invalid transition from CREATED to DELIVERED for order f6a61283-4c90-474a-afe8-6df0d4368000
+[2026-04-08 15:22:29.764] [INFO] Loaded 1 orders from file
+[2026-04-08 15:22:29.768] [INFO] FileOrderRepository initialized with 1 orders
+[2026-04-08 15:22:29.770] [INFO] Loaded 1 orders into cache
+[2026-04-08 15:22:29.771] [INFO] OrderService initialized
+[2026-04-08 15:22:58.060] [INFO] Cache HIT for order: f6a61283-4c90-474a-afe8-6df0d4368000
+[2026-04-08 15:23:12.711] [INFO] Cache HIT for order: f6a61283-4c90-474a-afe8-6df0d4368000
+[2026-04-08 15:23:12.712] [ERROR] Failed to update order status: Invalid transition from CREATED to DELIVERED for order f6a61283-4c90-474a-afe8-6df0d4368000
+[2026-04-08 15:23:22.316] [INFO] Cache HIT for order: f6a61283-4c90-474a-afe8-6df0d4368000
+[2026-04-08 15:26:45.381] [INFO] Cache MISS for order: === Food Delivery Resilient System ===
+[2026-04-08 15:27:22.480] [INFO] Loaded 1 orders from file
+[2026-04-08 15:27:22.484] [INFO] FileOrderRepository initialized with 1 orders
+[2026-04-08 15:27:22.485] [INFO] Loaded 1 orders into cache
+[2026-04-08 15:27:22.485] [INFO] OrderService initialized
+[2026-04-08 15:27:26.512] [INFO] Cache HIT for order: f6a61283-4c90-474a-afe8-6df0d4368000
+[2026-04-08 15:27:33.969] [INFO] Cache HIT for order: f6a61283-4c90-474a-afe8-6df0d4368000
+[2026-04-08 15:27:33.977] [INFO] Saved 1 orders to file
+[2026-04-08 15:27:33.977] [INFO] Saved order: f6a61283-4c90-474a-afe8-6df0d4368000 with status: CONFIRMED
+[2026-04-08 15:27:33.978] [INFO] Cached order: f6a61283-4c90-474a-afe8-6df0d4368000
+[2026-04-08 15:27:33.978] [INFO] Updated order f6a61283-4c90-474a-afe8-6df0d4368000 status: CREATED -> CONFIRMED
+[2026-04-08 15:27:38.302] [INFO] Cache HIT for order: f6a61283-4c90-474a-afe8-6df0d4368000
+[2026-04-08 15:27:53.784] [INFO] Loaded 1 orders from file
+[2026-04-08 15:27:53.787] [INFO] FileOrderRepository initialized with 1 orders
+[2026-04-08 15:27:53.788] [INFO] Loaded 1 orders into cache
+[2026-04-08 15:27:53.788] [INFO] OrderService initialized
+[2026-04-08 15:27:57.738] [INFO] Cache HIT for order: f6a61283-4c90-474a-afe8-6df0d4368000
+[2026-04-08 15:28:33.624] [INFO] Cache HIT for order: f6a61283-4c90-474a-afe8-6df0d4368000
+[2026-04-08 15:28:33.632] [INFO] Saved 1 orders to file
+[2026-04-08 15:28:33.633] [INFO] Saved order: f6a61283-4c90-474a-afe8-6df0d4368000 with status: DELIVERED
+[2026-04-08 15:28:33.633] [INFO] Cached order: f6a61283-4c90-474a-afe8-6df0d4368000
+[2026-04-08 15:28:33.634] [INFO] Updated order f6a61283-4c90-474a-afe8-6df0d4368000 status: CONFIRMED -> DELIVERED
+[2026-04-08 15:28:38.706] [INFO] Cache HIT for order: f6a61283-4c90-474a-afe8-6df0d4368000
+[2026-04-08 15:29:02.081] [INFO] Cache HIT for order: f6a61283-4c90-474a-afe8-6df0d4368000
+[2026-04-08 15:29:02.083] [ERROR] Failed to update order status: Cannot modify order f6a61283-4c90-474a-afe8-6df0d4368000 - already in final state: DELIVERED
+[2026-04-08 15:29:09.181] [INFO] Cache HIT for order: f6a61283-4c90-474a-afe8-6df0d4368000
+[2026-04-08 15:33:37.632] [INFO] Loaded 1 orders from file
+[2026-04-08 15:33:37.636] [INFO] FileOrderRepository initialized with 1 orders
+[2026-04-08 15:33:37.638] [INFO] Loaded 1 orders into cache
+[2026-04-08 15:33:37.638] [INFO] OrderService initialized
+[2026-04-08 15:33:44.490] [INFO] Cache MISS for order: === Food Delivery Resilient System ===
+[2026-04-08 15:33:49.664] [INFO] Loaded 1 orders from file
+[2026-04-08 15:33:49.666] [INFO] FileOrderRepository initialized with 1 orders
+[2026-04-08 15:33:49.667] [INFO] Loaded 1 orders into cache
+[2026-04-08 15:33:49.668] [INFO] OrderService initialized
+[2026-04-08 15:33:56.248] [INFO] Cache MISS for order: 3
+[2026-04-08 15:37:29.894] [INFO] Loaded 1 orders from file
+[2026-04-08 15:37:29.896] [INFO] FileOrderRepository initialized with 1 orders
+[2026-04-08 15:37:29.900] [INFO] Loaded 1 orders into cache
+[2026-04-08 15:37:29.900] [INFO] OrderService initialized
+[2026-04-08 15:37:40.210] [INFO] Saved 2 orders to file
+[2026-04-08 15:37:40.211] [INFO] Saved order: 8f62cadb-7d7b-46d1-9243-a7b993d9802f with status: CREATED
+[2026-04-08 15:37:40.211] [INFO] Cached order: 8f62cadb-7d7b-46d1-9243-a7b993d9802f
+[2026-04-08 15:37:40.212] [INFO] Created new order: 8f62cadb-7d7b-46d1-9243-a7b993d9802f - Pizza
+[2026-04-08 15:37:47.979] [INFO] Cache HIT for order: 8f62cadb-7d7b-46d1-9243-a7b993d9802f
+[2026-04-08 15:37:52.230] [INFO] Cache cleared. Removed 2 orders
+[2026-04-08 15:37:52.231] [INFO] OrderService: Cache cleared.
+[2026-04-08 15:38:00.441] [INFO] Cache MISS for order: 8f62cadb-7d7b-46d1-9243-a7b993d9802f
+[2026-04-08 15:38:00.442] [INFO] Cached order: 8f62cadb-7d7b-46d1-9243-a7b993d9802f
