@@ -1,7 +1,5 @@
 # Resilient Food Delivery Service (Console Prototype)
 
-This project is a high-reliability backend prototype for a food delivery system, developed as part of the **INF 395: Information Security** course (Assignment 2).
-
 ## Key Features (The "Big Four")
 
 1. **Stateful Workflow**: Orders follow a strict lifecycle: `CREATED` -> `CONFIRMED` -> `DELIVERED`. Illegal transitions (e.g., CREATED directly to DELIVERED) are blocked by internal logic.
